@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>demo7</title>
+  <style type="text/css">
+  body{
+    background: #fff; margin: 50px;padding: 50px;
+  }
+
+  .pencil{
+    position: relative;
+    width: 0.35em;
+    height: 0.8em;
+    background: #e69138;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    font-size: 1.4em;
+  }
+
+  .pencil:before{
+      content: "";
+      position: absolute;
+      top: -0.35em;
+      left: 0;
+      width: 0.35em;
+      height: 0.3em;
+      background: #ea9999;
+      border-radius: 0.1em;
+  }
+
+  .pencil:after{
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0.85em;
+      left: 0;
+      border: solid 0.2em #deba95;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+      border-right-color: transparent;
+      border-top: solid 0.45em #deba95;
+  }
+  }
+
+  </style>
+</head>
+<body>
+  <div class="pencil"></div>
+</body>
+</html>

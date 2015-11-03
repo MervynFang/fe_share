@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>demo8</title>
+  <style type="text/css">
+  body{
+    background: #fff; margin: 50px;padding: 50px;
+  }
+  
+  .man {
+    font-size: 10px;
+    position: relative;
+    background: #2b90eb;
+    width: 1.5em;
+    height: 2.5em;
+    margin-left: 0em;
+    margin-top: -0.5em;
+    border-radius: 0.4em;
+  }
+
+  .man:before {
+    content: '';
+    position: absolute;
+    background: #2b90eb;
+    height: 2em;
+    width: 0.5em;
+    display: block;
+    margin-left: -0.6em;
+
+    -webkit-box-shadow: 2.2em 0em 0 0em #2b90eb,0.70em 2.5em 0 0.1em #2b90eb, 1.5em 2.5em 0em 0.1em #2b90eb, 1.5em 2em 0em 0.1em #2b90eb, 0.7em 2em 0em 0.1em #2b90eb;
+    box-shadow: 2.2em 0em 0 0em #2b90eb,0.70em 2.5em 0 0.1em #2b90eb, 1.5em 2.5em 0em 0.1em #2b90eb, 1.5em 2em 0em 0.1em #2b90eb, 0.7em 2em 0em 0.1em #2b90eb;
+    border-radius: 1em;
+  }
+
+  .man:after {
+    content: '';
+    position: absolute;
+    background: #2b90eb;
+    height: 1.2em;
+    width: 1.2em;
+    display: block;
+    border-radius: 50%;
+    margin-top: -1.4em;
+    margin-left: 0.15em;
+  }
+
+  
+  </style>
+</head>
+<body>
+  <div class="man"></div>
+</body>
+</html>

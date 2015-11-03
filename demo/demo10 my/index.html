@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>demo10</title>
+  <style type="text/css">
+  body{
+    background: #fff; margin: 50px;padding: 0;
+  }
+
+  #demo{
+    display: inline-block;
+    border:solid 1px #666;
+    width: 100px;
+    height:100px;
+  }
+
+  #demo:before{
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 72px;
+    left: 80px;
+    border-radius: 50%;
+    background: #2C2C2C;
+  }
+  #demo:after{
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 72px;
+    left: 120px;
+    border-radius: 50%;
+    background: #2C2C2C;
+  }
+
+  #tri{
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 151px;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 15px solid #666;
+    z-index: 22;
+  }
+  #tri:after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: -65px;
+    border-left: 1px #2C2C2C solid;
+    border-right: 1px #2C2C2C solid;
+    border-bottom: 1px #2C2C2C solid;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  #inside{
+    display: inline-block;
+    position: absolute;
+    top: 101px;
+    left: 151px;
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-left: 14px solid #fff;
+    z-index: 23;
+  }
+
+  </style>
+</head>
+<body>
+  <div id="demo"></div>
+  <div id="tri"></div>
+  <div id="inside"></div>
+</body>
+</html>

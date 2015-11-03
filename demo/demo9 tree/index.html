@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>demo9</title>
+  <style type="text/css">
+  body{
+    background: #fff; margin: 50px;padding: 50px;
+  }
+  
+  .fir {
+    height: 0em;
+    width: 0em;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-bottom: 1.7em solid #4a9523;
+    font-size: 20px;
+    position: relative;
+
+    -webkit-box-shadow: 0em 0.9em 0 -0.8em #a56726,0em 1.0em 0 -0.8em #a56726,0em 1.2em 0 -0.8em #a56726,0em 1.4em 0 -0.8em #a56726,0em 1.6em 0 -0.8em #a56726,0em 1.8em 0 -0.8em #a56726;
+    box-shadow: 0em 0.9em 0 -0.8em #a56726,0em 1.0em 0 -0.8em #a56726,0em 1.2em 0 -0.8em #a56726,0em 1.4em 0 -0.8em #a56726,0em 1.6em 0 -0.8em #a56726,0em 1.8em 0 -0.8em #a56726;
+  }
+
+  .fir:before {
+    left: -0.7em;
+    top: -0.2em;
+    height: 0em;
+    width: 0em;
+    content: '';
+    display: block;
+    position: absolute;
+    border-left: 0.7em solid transparent;
+    border-right: 0.7em solid transparent;
+    border-bottom: 1em solid #4a9523;
+  }
+
+  .fir::after {
+    left: -0.5em;
+    top: -0.5em;
+    height: 0em;
+    width: 0em;
+    content: '';
+    display: block;
+    position: absolute;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.7em solid #4a9523;
+  }
+
+
+  
+  </style>
+</head>
+<body>
+  <div class="fir"></div>
+</body>
+</html>

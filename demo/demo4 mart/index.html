@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>demo4</title>
+  <style type="text/css">
+  body{
+    background: #fff; margin: 50px;padding: 50px;
+  }
+  
+  .cart{
+    font-size: 9px;
+    position:relative;
+    margin:30% auto;
+    width:2.0em;
+    height:0;
+    border-left:solid 0.8em transparent;
+    border-right:solid 0.8em transparent;
+    border-top:solid 1.8em #2c2c2c;
+  }
+
+  .cart:before{
+    content:"";
+    dysplay:block;
+    position:absolute;
+    top:-2.1em;
+    left:-1.5em;
+    width:1.4em;
+    height:0.5em;
+    background:#2c2c2c;
+    border-top-right-radius:0.5em;
+  }
+
+  .cart:after{
+    content:"";
+    dysplay:block;
+    position:absolute;
+    left:0.1em;
+    top:0.1em;
+    width:0.7em;
+    height:0.7em;
+    background:#2c2c2c;
+    border-radius:50%;
+    box-shadow:1.2em 0 0 #2c2c2c;
+  }
+  
+  </style>
+</head>
+<body>
+  <div class="cart"></div>
+</body>
+</html>

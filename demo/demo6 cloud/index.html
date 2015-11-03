@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>demo6</title>
+  <style type="text/css">
+  body{
+    background: #00a9e0; margin: 50px;padding: 50px;
+  }
+
+  .cloud {
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(hsla(0,0%,0%,0), hsla(0,0%,0%,.1));
+    background-image: -moz-linear-gradient(hsla(0,0%,0%,0), hsla(0,0%,0%,.1));
+    background-image: -o-linear-gradient(hsla(0,0%,0%,0), hsla(0,0%,0%,.1));
+    background-image: -ms-linear-gradient(hsla(0,0%,0%,0), hsla(0,0%,0%,.1));
+    background-image: linear-gradient(hsla(0,0%,0%,0), hsla(0,0%,0%,.1));
+    border-radius: 1em;
+    height: 1em;
+    margin-top: 0.5em;
+    position: relative;
+    width: 3em;
+  }
+
+  .cloud:after,.cloud:before {
+    background-color: #fff;
+    content: "";
+    border-radius: 100%;
+    position: absolute;
+  }
+
+  .cloud:after {
+    background-image: -webkit-linear-gradient(hsla(0,0%,0%,0) 50%, hsla(0,0%,0%,.025));
+    background-image: -moz-linear-gradient(hsla(0,0%,0%,0) 50%, hsla(0,0%,0%,.025));
+    background-image: -o-linear-gradient(hsla(0,0%,0%,0) 50%, hsla(0,0%,0%,.025));
+    background-image: -ms-linear-gradient(hsla(0,0%,0%,0) 50%, hsla(0,0%,0%,.025));
+    background-image: linear-gradient(hsla(0,0%,0%,0) 50%, hsla(0,0%,0%,.025));
+    height: 1em;
+    right: 0.4em;
+    top: -0.5em;
+    width: 1em;
+  }
+
+  .cloud:before {
+    background-image: -webkit-linear-gradient(hsla(0,0%,0%,0) 50%, hsla(0,0%,0%,.075));
+    background-image: -moz-linear-gradient(hsla(0,0%,0%,0) 50%, hsla(0,0%,0%,.075));
+    background-image: -o-linear-gradient(hsla(0,0%,0%,0) 50%, hsla(0,0%,0%,.075));
+    background-image: -ms-linear-gradient(hsla(0,0%,0%,0) 50%, hsla(0,0%,0%,.075));
+    background-image: linear-gradient(hsla(0,0%,0%,0) 50%, hsla(0,0%,0%,.075));
+    height: 1.6em;
+    left: 0.4em;
+    top: -0.75em;
+    width: 1.6em;
+  }
+  </style>
+</head>
+<body>
+  <div class="cloud"></div>
+</body>
+</html>

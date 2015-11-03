@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>demo2</title>
+  <style type="text/css">
+  body{
+    background: #fff; margin: 50px;padding: 50px;
+  }
+  
+  .profil {
+    font-size: 24px;
+    top: 0.5em;
+    border-radius: 0.7em 0.7em 0 0;
+    background: #2C2C2C;
+    width: 1.5em;
+    height: 0.8em;
+    position: relative;
+  }
+
+  .profil::before {
+    position: absolute;
+    content: "";
+    top: -0.9em;
+    left: 0.38em;
+    width: 0.8em;
+    height: 0.85em;
+    border-radius: 50%;
+    background: #2C2C2C;
+  }
+  
+  </style>
+</head>
+<body>
+  <div class="profil"></div>
+</body>
+</html>
